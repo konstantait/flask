@@ -1,6 +1,6 @@
-# [Flask Login](https://github.com/konstantait) Example
+# [Flask Login](https://github.com/konstantait/flask.git) Example
 
-**[Flask Login](https://github.com/konstantait)** easy authentication and authorization in Flask example with modular structure using blueprints, app factory pattern, dual configuration profile 
+**[Flask Login](https://github.com/konstantait/flask.git)** easy authentication and authorization in Flask example with modular structure using blueprints, app factory pattern, dual configuration profile 
 <br />
 
 > Features
@@ -14,7 +14,7 @@
 
 > Links
 
-- [Flask Login](https://github.com/konstantait) - product page
+- [Flask Login](https://github.com/konstantait/flask.git) - product page
 <br />
 
 ## How to use it
@@ -34,8 +34,8 @@ $ git clone https://github.com/konstantait/flask.git
 $ cd flask
 $
 $ # Virtualenv modules installation
-$ virtualenv env
-$ source env/bin/activate
+$ python3 -m venv venv
+$ source venv/bin/activate
 $
 $ # Install modules
 $ pip3 install -r requirements.txt
