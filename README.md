@@ -30,7 +30,7 @@ $ ngrok config add-authtoken TOKEN
 $ ngrok http 5000
 $
 $ # Get the code
-$ git clone https://github.com/konstantait
+$ git clone https://github.com/konstantait/flask.git
 $ cd flask
 $
 $ # Virtualenv modules installation
