@@ -20,15 +20,6 @@
 ## How to use it
 
 ```bash
-$ # Ngork installation for external access using
-$ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | \
-  sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && \
-  echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | \
-  sudo tee /etc/apt/sources.list.d/ngrok.list && \
-  sudo apt update && sudo apt install ngrok
-$ ngrok config add-authtoken TOKEN
-$ ngrok http 5000
-$
 $ # Get the code
 $ git clone https://github.com/konstantait/flask.git
 $ cd flask
@@ -42,6 +33,15 @@ $ pip3 install -r requirements.txt
 $
 $ # Start the application (development mode)
 $ flask --app run.py run --debug
+$
+$ # Ngork installation for external access using
+$ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | \
+  sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && \
+  echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | \
+  sudo tee /etc/apt/sources.list.d/ngrok.list && \
+  sudo apt update && sudo apt install ngrok
+$ ngrok config add-authtoken TOKEN
+$ ngrok http 5000
 $
 $ # Access the dashboard in browser: http://127.0.0.1:5000/
 $ # or external access using ngork
