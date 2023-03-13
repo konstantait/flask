@@ -32,7 +32,7 @@ $ # Install modules
 $ pip3 install -r requirements.txt
 $
 $ # Start the application (development mode)
-$ flask --app run.py run --debug
+$ flask --app run.py run --debug --port=5000
 $
 $ # Ngork installation for external access using
 $ curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | \
