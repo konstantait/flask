@@ -5,7 +5,7 @@
 
 > Features
 
-- Up-to-date [dependencies](./requirements.txt): **Python 3.10.6 , Flask 2.2.3 , Werkzeug 2.2.3**
+- Up-to-date [dependencies](./requirements.txt): **Python 3.10.6 , Flask 2.2.3**
 - DBMS: SQLite (development) 
 - DB Tools: SQLAlchemy ORM, Flask-Migrate (schema migrations)
 - Modular design with **Blueprints**, simple codebase
