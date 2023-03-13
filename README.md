@@ -1,6 +1,6 @@
 # [Flask Login](https://github.com/konstantait/flask.git) Example
 
-**[Flask Login](https://github.com/konstantait/flask.git)** easy authentication and authorization in Flask example with modular structure using blueprints, app factory pattern, dual configuration profile 
+**[Flask Login](https://github.com/konstantait/flask.git)** easy authentication and authorization in Flask example with modular design using blueprints, app factory pattern, dual configuration profile 
 <br />
 
 > Features
