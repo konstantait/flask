@@ -1,0 +1,5 @@
+python-dotenv
+python-decouple
+flask
+flask_migrate
+flask_login
